@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = "10Fahimansari/cicd-app"
+        DOCKER_IMAGE = "10fahimansari/cicd-app"
     }
     stages {
         stage('Checkout Code') {
