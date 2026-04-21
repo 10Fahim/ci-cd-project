@@ -34,7 +34,7 @@ pipeline {
                 sh '''
                     docker stop cicd-app || true
                     docker rm cicd-app || true
-                    docker run -d --name cicd-app -p 5000:5000 $DOCKER_IMAGE
+                    docker run -d --name cicd-app -p 5001:5000 $DOCKER_IMAGE
                 '''
             }
         }
