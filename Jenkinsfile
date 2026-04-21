@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: '<git@github.com:10Fahim/ci-cd-project.git>'
+                git branch: 'main', url: 'git@github.com:10Fahim/ci-cd-project.git'
             }
         }
 
