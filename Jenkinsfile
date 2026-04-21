@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "your-dockerhub-username/cicd-app"
+        DOCKER_IMAGE = "10Fahimansari/cicd-app"
     }
 
     stages {
